@@ -1,0 +1,47 @@
+﻿.pagin {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 12px;
+}
+
+.pages {
+    color: #999;
+}
+
+.pages a, .pages .cpb {
+    text-decoration: none;
+    float: left;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    background: #ffff;
+    margin: 0 2px;
+    font-size: 11px;
+    color: #000;
+}
+
+.pages a:hover {
+    background-color: #3c96ca;
+    color: #fff;
+    border: 1px solid #3c96ca;
+    text-decoration: none;
+}
+
+.pages .cpb {
+    font-weight: bold;
+    color: #fff;
+    background: #3c96ca;
+    border: 1px solid #3c96ca;
+}
+
+.pages .srk {
+    height: 13px;
+    font-size: 16px;
+    vertical-align: middle
+}
+
+.pages .btngo {
+    width: 26px;
+    height: 15px;
+    vertical-align: middle;
+}
